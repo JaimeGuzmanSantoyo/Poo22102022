@@ -29,6 +29,7 @@ public class ReutilizacionDeCodigo {
         ///-------composicion----------------------
         Computadora compu = new Computadora();
         compu.setMarca("asus");
+        
         compu.setModelo("VIvobook 2");
          compu.setCpu( new Procesador("Intel", "i9", 5.0f)  );
          Mouse raton = new Mouse();
