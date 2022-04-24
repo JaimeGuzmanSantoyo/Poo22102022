@@ -1,13 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package pruebaejemplo;
 
-/**
- *
- * @author josej
- */
 public class Cuentahabiente {
     
     private String NombreCliente;
@@ -64,7 +57,7 @@ public class Cuentahabiente {
               
               
           }
-         // System.out.println("el nombre del cliente premium es es  "+this.NombreCliente);
+         
       
        
       
