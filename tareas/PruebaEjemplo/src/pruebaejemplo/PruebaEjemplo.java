@@ -31,12 +31,12 @@ public class PruebaEjemplo {
        usuario3.retirarDinero(30000);
     
     
-       System.out.println("--------------LISTA DEL  ARREGLO----------- ");
+       System.out.println("--------------LISTA DEL  ARREGLO---------- ");
       
       Cuentahabiente[] lista =  new Cuentahabiente[5];
         
        
-      lista[0] =new Cuentahabiente("Juan", 34321111, 70000 );  
+      lista[0] =new Cuentahabiente("Juana", 34321111, 70000 );  
         
       lista[1] =new Cuentahabiente("Raul", 0201010101, 12000); 
       

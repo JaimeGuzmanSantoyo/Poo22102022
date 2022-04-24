@@ -58,9 +58,9 @@ public class Cuentahabiente {
           System.out.println("el balance totoal es de : " );
                  System.out.println(this.balance - 10000); ;
           if(balance < 50000){
-              System.out.println("cliente regular y el nombre del usuario es : " + this.NombreCliente);
+              System.out.println("cliente regular y el nombre de la cuenta es  : " + this.NombreCliente);
           }else{
-              System.out.println("cliente premium y su nombre es "+ this.NombreCliente);
+              System.out.println("cliente premium y el nombre de la cuenta es  "+ this.NombreCliente);
               
               
           }
