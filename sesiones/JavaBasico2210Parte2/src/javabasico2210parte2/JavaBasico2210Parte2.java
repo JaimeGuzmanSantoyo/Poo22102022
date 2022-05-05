@@ -7,6 +7,7 @@ package javabasico2210parte2;
 import ico.fes.Circulo;
 import ico.fes.Cuadrado;
 import ico.fes.Figura;
+import ico.fes.herencia.EstudianteDeportistaArtista;
 import java.awt.Color;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
@@ -49,8 +50,12 @@ public class JavaBasico2210Parte2 {
         JOptionPane.showMessageDialog(null, "hola", 
                 "el titulo ",JOptionPane.INFORMATION_MESSAGE );
         
-    Color color =new Color (Color.GREEN);
-    Color micolor = new Color(Color.BLACK); 
+        EstudianteDeportistaArtista eda = new EstudianteDeportistaArtista();
+        eda.setNombre("Daniela");
+        eda.entrenar();
+        eda.enseyar();
+        eda.jugar();
+        
     }
     
 }
