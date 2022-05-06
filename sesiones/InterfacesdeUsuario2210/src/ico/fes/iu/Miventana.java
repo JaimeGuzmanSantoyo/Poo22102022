@@ -43,6 +43,8 @@ public class Miventana extends Frame implements MouseListener {
     @Override
     public void mouseClicked(MouseEvent e) {
          System.out.println("clic");
+         //System.out.println(cuadroTexto.getText()); // se imprimen las letras del anuncio en pantalla de ejecución usando metodos de acceso
+             etiqueta.setText("HOLA :) "+ cuadroTexto.getSelectedText());
     }
     @Override
     public void mousePressed(MouseEvent e) {
