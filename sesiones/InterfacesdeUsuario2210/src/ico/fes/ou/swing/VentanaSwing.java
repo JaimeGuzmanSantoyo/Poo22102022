@@ -68,9 +68,9 @@ lista.setModel(modelo);
             }
         });
 
-        this.boton.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mouseClicked(MouseEvent e) {
+        //this.boton.addMouseListener(new MouseAdapter() {
+            //@Override
+            //public void mouseClicked(MouseEvent e) {
                 //al sig. le hará falta manejo de excepciones???
                 float centigrados = Float.parseFloat(Cuadrotexto.getText());
                 // °F = (°C × 9/5) + 32
@@ -78,9 +78,9 @@ lista.setModel(modelo);
                 resultado.setText(farenheit + " °F");
             }
 
-        });
+        
 
-        this.lista.addItemListener(new ItemAdapter() {
+        /*this.lista.addItemListener(new ItemAdapter() {
             @Override
             public void itemStateChanged(ItemEvent ie) {
                 System.out.println("Cambio el item");
