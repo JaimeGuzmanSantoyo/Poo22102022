@@ -64,7 +64,7 @@ private JTextField texto2;
             }
             else
             {
-               texto2 = res + tabla.charAt((pos+key) - tabla.length());
+              res = res + tabla.charAt((pos+key) - tabla.length());
                
             }    
             
